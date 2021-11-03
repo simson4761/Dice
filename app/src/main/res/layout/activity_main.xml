@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/mecolor"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/dice_img"
+        android:layout_width="166dp"
+        android:layout_height="158dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="@dimen/_32sp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/dice_image"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dice1"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        tools:src="@drawable/dice1" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/dice_img2"
+        android:layout_width="155dp"
+        android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/_32sp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/dice_image"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dice3"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        tools:src="@drawable/dice3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_16dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/teal_700"
+        android:backgroundTintMode="add"
+        android:text="@string/str_button"
+        android:textColor="@color/black"
+        tools:ignore="TextContrastCheck" />
+</RelativeLayout>
