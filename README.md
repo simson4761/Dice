@@ -3,4 +3,4 @@ Features:
 - Displays two random number on the range of 1-6
 - Throw the dice and see the result
 For detailed information on how to use the app, visit:
-http://www.lasesp.com/article/16360088967457190/kotlin_documentation
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
